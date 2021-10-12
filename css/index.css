@@ -1,0 +1,69 @@
+body{
+ margin: -10px 0 0 0;
+}
+
+h1{
+    text-align: center;
+    color:cornsilk;
+    margin: -5px 0 0 0 ;
+    padding: 50px 0 0 0 ;
+    font-size: 40px;
+}
+.a-scrollmenu{
+    display: block;
+    text-decoration: none;
+  text-align: center;
+
+     margin: 5px 5px 5px 5px   ;
+  
+          font-size: 25px;
+          color: cornsilk;
+    }
+    
+    
+    .img-scrollmenu{
+        width: 100%;
+        height: 60%;
+    }
+    
+
+.header-scrollmenu{
+    width: 105%;
+   height: 400px;
+    background-color: black;
+   
+   
+     
+}
+
+.li-scrollmenu{
+    
+    list-style-type: none;
+    width: 150px;
+    height: 210px;
+   margin: 50px 25px 0 25px;
+    background-color: brown;
+    justify-content: space-around;
+
+   
+  
+
+}
+
+
+.ul-scrollmenu{
+    display: flex;
+     width: 100%;
+
+}
+
+.nav-top{
+    background: black;
+    height: 400px;
+}
+
+.nav-bottom{
+    margin: 0 0 0 0 ;
+    background: black;
+    height: 400px;
+}
