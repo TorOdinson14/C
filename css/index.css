@@ -1,69 +1,115 @@
 body{
- margin: -10px 0 0 0;
+    background-color: rgb(48, 48, 48);
+    margin: 5px  ;
+ 
+}
+
+
+a{
+    
+text-decoration: none;
+color: rgb(3, 3, 3);
+
+font-size: 40px;
+}
+
+ul{
+    margin:  0 0 0 0 ;
+    padding: 0 0 0 0;
+}
+
+li{
+    
+    list-style-type: none;
+}
+
+.header-all{
+text-align: center;
 }
 
 h1{
-    text-align: center;
-    color:cornsilk;
-    margin: -5px 0 0 0 ;
-    padding: 50px 0 0 0 ;
-    font-size: 40px;
+    font-size: 50px;
+    color: white; 
 }
-.a-scrollmenu{
+h2{
+
+}
+
+img{
+    max-width: 100%;
+    max-height: 150px;
+    
+}
+
+
+.nav-container{
+    max-width: 1200px;
+    margin: 0px auto;
+}
+
+@media(max-width:1200px){
+    .nav-container{
+        max-width:970px ;
+    }
+}
+
+@media(max-width:992px){
+    .nav-container{
+        max-width:750px ;
+    }
+}
+
+
+@media(max-width:767px){
+    .nav-container{
+        max-width:none;
+    }
+}
+
+.nav-list{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-around;
+
+
+   
+
+}
+
+
+.nav-li{
+background-color: aliceblue;
+color: black;
+   
+margin: 25px 25px 25px 25px;
+
+    border: 1px solid;
+    width: 250px;
+    height: 300px;
+}
+
+.nav-li h2 {
+    font-size: 30px;
+}
+
+
+.ul-img{
     display: block;
-    text-decoration: none;
+ 
+  margin-left: auto;
+  margin-right: auto;
   text-align: center;
+}
 
-     margin: 5px 5px 5px 5px   ;
-  
-          font-size: 25px;
-          color: cornsilk;
-    }
-    
-    
-    .img-scrollmenu{
-        width: 100%;
-        height: 60%;
-    }
-    
 
-.header-scrollmenu{
-    width: 105%;
-   height: 400px;
-    background-color: black;
+.li-img{
    
-   
-     
-}
 
-.li-scrollmenu{
-    
-    list-style-type: none;
-    width: 150px;
-    height: 210px;
-   margin: 50px 25px 0 25px;
-    background-color: brown;
-    justify-content: space-around;
-
-   
-  
+    max-width: 100%;
+    height: 500px;
+  background-image: url(/img/обучение.png);
+  background-repeat: no-repeat;
+  background-position: center;
 
 }
 
-
-.ul-scrollmenu{
-    display: flex;
-     width: 100%;
-
-}
-
-.nav-top{
-    background: black;
-    height: 400px;
-}
-
-.nav-bottom{
-    margin: 0 0 0 0 ;
-    background: black;
-    height: 400px;
-}
