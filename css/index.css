@@ -12,8 +12,8 @@ height: 100%;
 
 
 main{
-    background-image: url(https://besthqwallpapers.com/Uploads/8-4-2020/127978/thumb2-html5-black-logo-programming-language-grid-metal-background-html5-artwork.jpg);
-    background-size: 100%;
+    background-image: url(https://get.wallhere.com/photo/black-monochrome-minimalism-texture-circle-brand-line-darkness-screenshot-computer-wallpaper-black-and-white-monochrome-photography-font-207087.jpg);
+    background-size: 200%;
     background-position: top center;
   margin: 0 -8px 0 -8px;
   flex: 1 1 auto;
@@ -32,6 +32,8 @@ img{
 p{
   color: aliceblue;
   font-size: 25px;
+  margin-left: 25px;
+  margin-right: 10px;
 }
 
 
@@ -39,6 +41,7 @@ h1{
     color: aliceblue;
     font-size: 50px;
     margin: 0 0 0 0;
+    text-align: center;
 
 }
 h2{
@@ -75,11 +78,6 @@ li{
     background-color: rgba(83, 69, 83, 0.452);
    font-size: 25px;
 }
-
-
-
-
-
 
 
 
@@ -159,9 +157,7 @@ header{
 .header-bottom{
 
 
-
-
-
+    
 }
 
 
@@ -179,15 +175,35 @@ section{
     margin: 0px 0 50px 0;
 }
 
+.table {
+  
+margin-left: auto;
+margin-right: auto;
+
+}
 
 .block{
     display: flex;
     justify-content: space-around;
     flex-wrap:wrap ;
+    
 }
 
+.block-lesson{
+   margin-left: auto;
+   margin-right: auto;
+   border-top: 1px solid;
+   border-color: rgb(20, 5, 236 ); ;
+color: white;
+}
 
-
+.block-lesson h2{
+    text-align: center;
+    font-size: 40px;
+}
+.text{
+    text-align: left;
+}
 .content-video{
     border-top: 1px solid;
     border-color: rgb(20, 5, 236); ;
